@@ -221,7 +221,7 @@ test.describe('Login Tests', () => {
 			await addpip.enterPIPGivenName(pipdetailsdata.GivenName)
 			await addpip.enterPIPMiddleName(pipdetailsdata.MiddleName)
 			await addpip.selectPIPBornDate()
-			//await page.pause()
+			
 			await addpip.selecrPIPEthnicity()
 			await addpip.selectPIPOccupation()
 			await addpip.enterPIPMobileNumber(pipdetailsdata.MobileNo)
